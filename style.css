@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: orange;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.anchor-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.about-me {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.center {
+    text-align: center;
+}
+
+.recipie-item {
+    width: 95%;
+    height: 500px;
+    display: flex;
+}
+
+.shadow div {
+    box-shadow: 15px 10px 40px gray;
+    height: 80%;
+}
+
+.footer {
+    width: 95%;
+    height: 10px;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 10%;
+}
